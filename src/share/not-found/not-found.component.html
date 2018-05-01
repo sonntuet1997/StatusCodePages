@@ -1,3 +1,13 @@
-<div class="not-found-bg" (window:resize)="onResize($event)" [style.width.px]="width" [style.height.px]="height">
-  <div class="not-found-content" [style.top.px]="heightContent" #notFoundContent> 404 NOT FOUND ! </div>
+<div class="bgimg">
+  <div class="topleft">
+    <p>NTS</p>
+  </div>
+  <div class="middle">
+    <h1>404 NOT FOUND</h1>
+    <hr>
+    <p>The resource requested could not be found on this server! <a routerLink="/">GO HOME</a></p>
+  </div>
+  <div class="bottomleft">
+    <p>Copyright © 2018</p>
+  </div>
 </div>
